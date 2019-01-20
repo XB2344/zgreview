@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--namespace :接口的全路径-->
+<mapper namespace="com.zgreviewsystem.review_usermanager.Mapper.roleMapper">
+    <!--返回的结果集映射 id:resultMap唯一标示 type：返回类型
+    autoMapping：true 表示自动映射
+    -->
+    <resultMap id="baseAttrInfoMap" type="com.zgreview.service.bean.role" autoMapping="true">
+        <!--id:表示主键
+            column:表示 通过sql 语句查询出来的列名
+            property:表示实体类的属性名：
+            result: 表示普通列名
+        -->
+        <id column="id" property="id"></id>
+        <!-- BaseAttrInfo.attrValueList
+            mybatis 如果在配置一对多的时候，出现id重复的情况下，将使用别名来控制！
+        -->
+        <!--<collection property="attrValueList" ofType="com.atguigu.gmall0622.bean.BaseAttrValue"  autoMapping="true">-->
+            <!--<id column="attr_value_id" property="id"></id>-->
+        <!--</collection>-->
+
+    </resultMap>
+
+    <select id="selectNamebyId" resultMap="baseAttrInfoMap">
+      select * from role where id = 5
+
+    </select>
+
+
+</mapper>

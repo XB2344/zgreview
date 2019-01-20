@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+	<artifactId>review_parent</artifactId>
+	<groupId>com.zgreviewsystem</groupId>
+	<version>1.0-SNAPSHOT</version>
+	<relativePath>../review_parent/pom.xml</relativePath>
+	</parent>
+	<groupId>com.zgreviewsystem</groupId>
+	<artifactId>review_usermanager</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>review_usermanager</name>
+	<description>Demo project for Spring Boot</description>
+
+
+
+	<dependencies>
+		<dependency>
+			<groupId>com.zgreviewsystem</groupId>
+			<artifactId>review_interface</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zgreviewsystem</groupId>
+			<artifactId>review_service_util</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

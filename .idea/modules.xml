@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/review_bean/review_bean.iml" filepath="$PROJECT_DIR$/review_bean/review_bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review_common_util/review_common_util.iml" filepath="$PROJECT_DIR$/review_common_util/review_common_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review_interface/review_interface.iml" filepath="$PROJECT_DIR$/review_interface/review_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review_parent/review_parent.iml" filepath="$PROJECT_DIR$/review_parent/review_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review_service_util/review_service_util.iml" filepath="$PROJECT_DIR$/review_service_util/review_service_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review_usermanager/review_usermanager.iml" filepath="$PROJECT_DIR$/review_usermanager/review_usermanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review_web_util/review_web_util.iml" filepath="$PROJECT_DIR$/review_web_util/review_web_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zgreview.iml" filepath="$PROJECT_DIR$/zgreview.iml" />
+    </modules>
+  </component>
+</project>

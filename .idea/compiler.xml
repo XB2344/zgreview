@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="review_bean" />
+        <module name="review_common_util" />
+        <module name="review_interface" />
+        <module name="review_service_util" />
+        <module name="review_usermanager" />
+        <module name="review_web_util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="review_bean" target="1.8" />
+      <module name="review_common_util" target="1.8" />
+      <module name="review_interface" target="1.8" />
+      <module name="review_parent" target="1.8" />
+      <module name="review_service_util" target="1.8" />
+      <module name="review_usermanager" target="1.8" />
+      <module name="review_web_util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
